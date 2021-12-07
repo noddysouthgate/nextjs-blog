@@ -20,6 +20,9 @@ export default function Home({ allPostsData }) {
         </p>
         <Alert type="success">An example success alert</Alert>
         <Alert type="error">An example error alert</Alert>
+        <Link href="/live">
+          <a>Chuck Live</a>
+        </Link>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Blog</h2>
           <ul className={utilStyles.list}>
